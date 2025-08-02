@@ -78,7 +78,7 @@ The dataset includes information about layoffs at global companies, featuring:
 
 - Original dataset contained **2,361** rows.
 - Final cleaned dataset contains **1,995** rows.
-- Ready for accurate exploratory analysis and dashboarding.
+![Before and After Cleaning](images/before_after_cleaning.png)
 
 ---
 
