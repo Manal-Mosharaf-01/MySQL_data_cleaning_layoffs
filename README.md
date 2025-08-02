@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project showcases my ability to clean and preprocess real-world data using SQL. I worked with a dataset containing global company layoffs and performed a comprehensive data cleaning pipeline in MySQL to prepare the data for further analysis.
+This project involves cleaning and preprocessing real-world layoff data using SQL to prepare it for analysis. I worked with a dataset containing global company layoffs and performed a comprehensive data cleaning pipeline in MySQL to prepare the data for further analysis.
 
 The original dataset contained inconsistencies, duplicates, and missing values. The goal was to transform it into a clean, well-structured dataset suitable for exploratory data analysis and visualization.
 
@@ -84,7 +84,9 @@ The dataset includes information about layoffs at global companies, featuring:
 
 ## 📁 Files Included
 
-- `data_cleaning_layoffs.sql`: Full SQL script used for cleaning the dataset.
+- `Data_cleaning.sql`: Full SQL script used for cleaning the dataset.
+- `layoffs.xlsx`: Orginal dataset.
+- `final_layoffs_dataset.xlsx` : Cleaned dataset.
 - `README.md`: This documentation file.
 
 ---
@@ -98,8 +100,8 @@ In a follow-up project, I will use this cleaned dataset to perform SQL-based exp
 ## 📬 Contact
 
 **Manal Mosharaf**  
-_Data Analyst | SQL Enthusiast_  
-📧 [Your Email]  
+_Data Scientist  
+📧 [mosharafmanal@gmail.com]  
 🔗 [LinkedIn Profile or Portfolio Website]
 
 
