@@ -45,7 +45,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - A table joined to itself to fill in missing values.
 - Purpose: Populated missing industry values by referencing rows with the same company and location but non-null industry values.
   
-<p align="center">
+<p align="left">
   <img src="images/self_join.png" alt="Self-Joins" width="400"/>
 </p>
 
