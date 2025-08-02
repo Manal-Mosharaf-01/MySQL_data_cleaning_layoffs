@@ -28,8 +28,9 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 ### 2. **Common Table Expressions (CTEs)**
 - Temporary result sets (using `WITH`) that make complex queries readable and modular.
 - Purpose: Helped isolate duplicates or null values in multiple steps for cleaner logic and code reuse.
+  
 <p align="center">
-  <img src="CTE_check_duplicates.png" alt="CTEs" width="600"/>
+  <img src="CTE_check_duplicates.png" alt="CTEs" width="400"/>
 </p>
 
 ### 3. **String Functions – `TRIM()`, `REPLACE()`**
@@ -43,8 +44,9 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 ### 5. **Self-Joins**
 - A table joined to itself to fill in missing values.
 - Purpose: Populated missing industry values by referencing rows with the same company and location but non-null industry values.
+  
 <p align="center">
-  <img src="images/self_join.png" alt="Self-Joins" width="600"/>
+  <img src="images/self_join.png" alt="Self-Joins" width="400"/>
 </p>
 
 
