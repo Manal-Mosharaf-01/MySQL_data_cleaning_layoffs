@@ -20,12 +20,12 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 ### 1. **Window Function – `ROW_NUMBER()`**
 - Used to assign a unique number to each row based on a partition of columns.
 - Purpose: Identify duplicate records in the dataset so they can be removed while retaining one clean copy.
-(images/row_number.png)
+![ROW_NUMBER()](images/row_number.png)
 
 ### 2. **Common Table Expressions (CTEs)**
 - Temporary result sets (using `WITH`) that make complex queries readable and modular.
 - Purpose: Helped isolate duplicates or null values in multiple steps for cleaner logic and code reuse.
-(images/CTE_check_duplicates.png)
+![(CTEs)](images/CTE_check_duplicates.png)
 
 ### 3. **String Functions – `TRIM()`, `REPLACE()`**
 - Used to remove extra spaces or unify inconsistent text values.
@@ -38,7 +38,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 ### 5. **Self-Joins**
 - A table joined to itself to fill in missing values.
 - Purpose: Populated missing industry values by referencing rows with the same company and location but non-null industry values.
-(images/self_join.png)
+![(Self-Joins)](images/self_join.png)
 
 ### 6. **NULL Handling**
 - Identified and cleaned null or blank entries using `IS NULL`, `''`, and `UPDATE`.
