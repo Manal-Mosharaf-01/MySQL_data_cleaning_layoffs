@@ -20,7 +20,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 ### 1. **Window Function – `ROW_NUMBER()`**
 - Used to assign a unique number to each row based on a partition of columns.
 - Purpose: Identify duplicate records in the dataset so they can be removed while retaining one clean copy.
-<p align="right">
+<p align="left">
   <img src="images/row_number.png" alt="ROW_NUMBER()" width="600"/>
 </p>
 
@@ -29,8 +29,8 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - Temporary result sets (using `WITH`) that make complex queries readable and modular.
 - Purpose: Helped isolate duplicates or null values in multiple steps for cleaner logic and code reuse.
   
-<p align="right">
-  <img src="CTE_check_duplicates.png" alt="CTEs" width="600"/>
+<p align="left">
+  <img src="images/CTE_check_duplicates.png" alt="CTEs" width="600"/>
 </p>
 
 ### 3. **String Functions – `TRIM()`, `REPLACE()`**
@@ -45,7 +45,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - A table joined to itself to fill in missing values.
 - Purpose: Populated missing industry values by referencing rows with the same company and location but non-null industry values.
   
-<p align="right">
+<p align="left">
   <img src="images/self_join.png" alt="Self-Joins" width="400"/>
 </p>
 
@@ -92,7 +92,7 @@ The dataset includes information about layoffs at global companies, featuring:
 - Original dataset contained **2,361** rows.
 - Final cleaned dataset contains **1,995** rows.
 
-<p align="right">
+<p align="left">
   <img src="images/before_after_cleaning.png" alt="Before and After Cleaning" width="400"/>
 </p>
 ---
