@@ -17,11 +17,11 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 
 ## 🧠 SQL Concepts & Techniques Applied
 
-### 1. **Window Function – ![`ROW_NUMBER()`]((images/row_number.png))**
+### 1. **Window Function – ![`ROW_NUMBER()`](images/row_number.png)**
 - Used to assign a unique number to each row based on a partition of columns.
 - Purpose: Identify duplicate records in the dataset so they can be removed while retaining one clean copy.
 
-### 2. **Common Table Expressions (CTEs)**
+### 2. **Common Table Expressions ![(CTEs)](images/CTE_check_duplicates.png)**
 - Temporary result sets (using `WITH`) that make complex queries readable and modular.
 - Purpose: Helped isolate duplicates or null values in multiple steps for cleaner logic and code reuse.
 
@@ -33,7 +33,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - Converted text-based dates (e.g., "03/21/2023") into proper `DATE` format.
 - Purpose: Enabled date filtering, sorting, and time-based analysis later on.
 
-### 5. **Self-Joins**
+### 5. **![Self-Joins](images/self_join.png)**
 - A table joined to itself to fill in missing values.
 - Purpose: Populated missing industry values by referencing rows with the same company and location but non-null industry values.
 
