@@ -30,7 +30,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - Purpose: Helped isolate duplicates or null values in multiple steps for cleaner logic and code reuse.
   
 <p align="center">
-  <img src="CTE_check_duplicates.png" alt="CTEs" width="400"/>
+  <img src="CTE_check_duplicates.png" alt="CTEs" width="600"/>
 </p>
 
 ### 3. **String Functions – `TRIM()`, `REPLACE()`**
@@ -45,7 +45,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - A table joined to itself to fill in missing values.
 - Purpose: Populated missing industry values by referencing rows with the same company and location but non-null industry values.
   
-<p align="left">
+<p align="right">
   <img src="images/self_join.png" alt="Self-Joins" width="400"/>
 </p>
 
@@ -91,8 +91,10 @@ The dataset includes information about layoffs at global companies, featuring:
 
 - Original dataset contained **2,361** rows.
 - Final cleaned dataset contains **1,995** rows.
-![Before and After Cleaning](images/before_after_cleaning.png)
 
+<p align="right">
+  <img src="images/before_after_cleaning.png" alt="Before and After Cleaning" width="400"/>
+</p>
 ---
 
 ## 📁 Files Included
