@@ -17,7 +17,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 
 ## 🧠 SQL Concepts & Techniques Applied
 
-### 1. **Window Function – `ROW_NUMBER()`**
+### 1. **Window Function – ![`ROW_NUMBER()`]((images/row_number.png))**
 - Used to assign a unique number to each row based on a partition of columns.
 - Purpose: Identify duplicate records in the dataset so they can be removed while retaining one clean copy.
 
