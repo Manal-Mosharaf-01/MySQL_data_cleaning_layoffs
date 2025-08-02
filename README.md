@@ -20,6 +20,10 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 ### 1. **Window Function – `ROW_NUMBER()`**
 - Used to assign a unique number to each row based on a partition of columns.
 - Purpose: Identify duplicate records in the dataset so they can be removed while retaining one clean copy.
+<p align="center">
+  <img src="images/row_number.png" alt="Before and After" width="600"/>
+</p>
+
 ![ROW_NUMBER()](images/row_number.png)
 
 ### 2. **Common Table Expressions (CTEs)**
