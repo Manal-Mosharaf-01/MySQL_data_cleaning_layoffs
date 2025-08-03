@@ -21,7 +21,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - Used to assign a unique number to each row based on a partition of columns.
 - Purpose: Identify duplicate records in the dataset so they can be removed while retaining one clean copy.
 <p align="left">
-  <img src="images/row_number.png" alt="ROW_NUMBER()" width="600"/>
+  <img src="images/row_number.png" alt="ROW_NUMBER()" width="400"/>
 </p>
 
 
@@ -30,7 +30,7 @@ The original dataset contained inconsistencies, duplicates, and missing values. 
 - Purpose: Helped isolate duplicates or null values in multiple steps for cleaner logic and code reuse.
   
 <p align="left">
-  <img src="images/CTE_check_duplicates.png" alt="CTEs" width="600"/>
+  <img src="images/CTE_check_duplicates.png" alt="CTEs" width="400"/>
 </p>
 
 ### 3. **String Functions – `TRIM()`, `REPLACE()`**
